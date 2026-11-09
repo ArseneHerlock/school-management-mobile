@@ -1,0 +1,10 @@
+{
+  "appId": "com.schoolmanagement.app",
+  "appName": "MamNonTuoiTho",
+  "webDir": "www",
+  "server": {
+    "url": "http://localhost:3000",
+    "cleartext": true,
+    "androidScheme": "http"
+  }
+}

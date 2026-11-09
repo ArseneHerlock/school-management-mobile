@@ -1,0 +1,22 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "description": "MamNonTuoiTho Mobile Application with Capacitor and Ionic",
+  "main": "index.js",
+  "scripts": {
+    "cap:sync": "cap sync android",
+    "build:apk": "cap sync android && cd android && .\\gradlew.bat assembleDebug",
+    "open:android": "cap open android"
+  },
+  "keywords": ["ionic", "capacitor", "mobile", "preschool"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@ionic/core": "^9.0.10",
+    "ionicons": "^8.1.0"
+  }
+}
